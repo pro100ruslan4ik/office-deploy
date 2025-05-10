@@ -11,4 +11,5 @@ https://learn.microsoft.com/ru-ru/microsoft-365-apps/deploy/office-deployment-to
 2. Открываем командную строку от имени администратора и пишем 
 reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|UA" /f
 
-3. Выполняем setup.exe /configure configuration-Office2021Enterprise.xml 
+3. Выполняем 
+setup.exe /configure configuration-Office2021Enterprise.xml 
